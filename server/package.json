@@ -1,0 +1,21 @@
+{
+  "name": "pool-timer-server",
+  "version": "1.0.0",
+  "description": "This is the node server that runs pool timer server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js"
+  },
+  "keywords": [
+    "pool-timer"
+  ],
+  "author": "Anuradha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.4"
+  }
+}
